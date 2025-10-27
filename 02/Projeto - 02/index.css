@@ -74,7 +74,7 @@ body {
 
 .tabela input[type="button"]:hover,
 #finalizarBtn:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
   border-radius: 10px;
   background-color: rgb(0, 238, 255);
 }

@@ -37,7 +37,7 @@ function renderizarvalores(){
 
        let botaoRemover = document.createElement("button")
        botaoRemover.className = "remover"
-       botaoRemover.textContent = "remover"
+       botaoRemover.textContent = "Remover"
        botaoRemover.style.marginRight =" 20px"
        botaoRemover.style.backgroundColor = "red"
        botaoRemover.style.color = "white"

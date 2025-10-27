@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet" />
+    <title>DevClub Store</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">DevClub Store</div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contatos</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="content">
+            <div class="tech-circule">
+                <div class="circule"></div>
+                <div class="circule"></div>
+                <div class="circule"></div>
+                <div class="circule"></div>
+            </div>
+        </div>
+    </main>
+
+   
+    <div class="list">
+        
+        <div class="item active">
+            <div class="produto-img">
+                <img src="./imagens/apple-watch.png" alt="Apple Watch" class="imagem_apple">
+            </div>
+            <div class="info">
+                <p class="produto-tag">Novo Lançamento</p>
+                <p class="produto-nome">Apple Watch Series 10</p>
+                <p class="description">
+                    O Apple Watch é um smartwatch desenvolvido pela Apple Inc. Ele oferece uma
+                    variedade de recursos, incluindo monitoramento de saúde, notificações,
+                    rastreamento de atividades físicas e integração com o iPhone.
+                </p>
+                <div class="item_botao">
+                    <button class="botao">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+
+      
+        <div class="item">
+            <div class="produto-img">
+                <img src="./imagens/air-pods.png" alt="AirPods" class="imagem_airpods" />
+            </div>
+            <div class="info">
+                <p class="produto-tag">Fones de Ouvido</p>
+                <p class="produto-nome">AirPods</p>
+                <p class="description">
+                    Os AirPods são fones de ouvido sem fio desenvolvidos pela Apple, com
+                    qualidade de som, integração com dispositivos Apple e praticidade no uso
+                    diário com microfone embutido e estojo de recarga.
+                </p>
+                <div class="item_botao">
+                    <button class="botao">Comprar</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <div class="produto-img">
+                <img src="./imagens/vision-pro.png" alt="MacBook Pro" class="imagem_Macbook" />
+            </div>
+            <div class="info">
+                <p class="produto-tag">Laptop Profissional</p>
+                <p class="produto-nome">MacBook Pro</p>
+                <p class="description">
+                    O MacBook Pro é um laptop da Apple projetado para profissionais. Oferece
+                    desempenho poderoso, tela Retina de alta resolução e longa duração de
+                    bateria, ideal para tarefas intensivas como edição de vídeo e design
+                    gráfico.
+                </p>
+                <div class="item_botao">
+                    <button class="botao">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="arrows">
+        <button class="arrows-btn" id="prevB">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+            </svg>
+        </button>
+        <button class="arrows-btn" id="nextB">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+            </svg>
+        </button>
+    </div>
+
+    
+    <div class="indicator">
+        <div class="numbers">01</div>
+        <div class="pontos">
+            <div class="ponto active"></div>
+            <div class="ponto"></div>
+            <div class="ponto"></div>
+        </div>
+    </div>
+
+    <script src="scriiipt.js"></script>
+</body>
+
+</html>
